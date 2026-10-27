@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // This repository is published as a GitHub Pages project site.
+    base: '/BioSenses-3d/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
